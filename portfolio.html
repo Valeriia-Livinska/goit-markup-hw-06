@@ -326,7 +326,7 @@
         </div>
         <div class="position-subscribe">
           <p class="subscribe-title">Подпишитесь на рассылку</p>
-          <form class="form-subscribe">
+          <form class="form-subscribe" autocomplete="off">
             <label class="label-mail-subscribe">
               <input
                 class="input-mail-subscribe"
@@ -336,10 +336,12 @@
               />
             </label>
             <button class="btn-subscribe" type="submit">
-              <span>Подписаться</span>
-              <svg class="icon-subscribe" width="24" height="24">
-                <use href="./images/icons/icons.svg#icon-send"></use>
-              </svg>
+              <span class="btn-subscribe-text"
+                >Подписаться
+                <svg class="icon-subscribe" width="24" height="24">
+                  <use href="./images/icons/icons.svg#icon-send"></use>
+                </svg>
+              </span>
             </button>
           </form>
         </div>
