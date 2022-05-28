@@ -380,6 +380,7 @@ img {
     padding: 12px 42px;
 
     width: 100%;
+    height: 40px;
 
     font-size: 14px;
     line-height: 1.14;
@@ -457,7 +458,8 @@ img {
                 background-color var(--transition-duration) var(--cubic-bezier);
 }
 
-.custom-checkbox:hover {
+.custom-checkbox:hover,
+.custom-checkbox:focus {
     border-color: var(--accent-color);
 }
 
